@@ -18,6 +18,11 @@ app.get('/', (req, res) => {
 app.get('/test', (req, res) => {
     res.send("what's up bitches!!!");
   });
+
+  app.get('/test2', (req, res) => {
+    res.send("what's up bitches222!!!");
+  });
+  
   
   // Start the Express server
   app.listen(port, () => {
